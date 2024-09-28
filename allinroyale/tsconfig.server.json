@@ -1,9 +1,0 @@
-{
-    "extends": "./tsconfig.json",
-    "compilerOptions": {
-        "noEmit": false,
-        "module": "es2015",
-        "outDir": ".next/production-server/"
-    },
-    "include": ["**/*.ts"],
-}
