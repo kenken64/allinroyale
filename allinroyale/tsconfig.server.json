@@ -1,12 +1,9 @@
 {
     "extends": "./tsconfig.json",
     "compilerOptions": {
-      "module": "commonjs",
-      "outDir": "dist",
-      "lib": ["es2019"],
-      "target": "es2019",
-      "isolatedModules": false,
-      "noEmit": false
+        "noEmit": false,
+        "module": "es2015",
+        "outDir": ".next/production-server/"
     },
-    "include": ["server.ts"]
-  }
+    "include": ["**/*.ts"],
+}
